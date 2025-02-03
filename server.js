@@ -14,5 +14,5 @@ app.get('/', (req, res) => {
     res.send('ABDM M1 API is running...');
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
+const PORT = process.env.PORT || 6969;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
